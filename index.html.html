@@ -1,0 +1,183 @@
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>رخصة محقق بيانات | معسكر البيانات</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"><style>
+*{box-sizing:border-box}body{margin:0;background:#f5f8ff;color:#152136;font-family:Cairo,-apple-system,BlinkMacSystemFont,system-ui,sans-serif}button,input{font:inherit}.shell{max-width:650px;margin:auto;min-height:100vh}.hidden{display:none!important}.hero{position:relative;background:white;box-shadow:0 12px 45px #1e4b8b15}.hero img{width:100%;display:block}.hero-action{position:absolute;bottom:7.7%;left:7%;width:86%;height:9.5%;border:0;background:transparent;cursor:pointer;border-radius:50px}.hero-action:focus-visible{outline:4px solid #1a73e8}.screen{padding:22px 17px 50px}.card{background:white;border:1px solid #e4eaf4;border-radius:25px;padding:23px;box-shadow:0 12px 34px #233b6310}.topline{display:flex;align-items:center;justify-content:space-between;gap:10px;color:#617087;font-size:13px}.pill{background:#e7f4ec;color:#188038;padding:8px 13px;border-radius:40px;font-weight:700}.progress{display:flex;gap:7px;margin:22px 0}.progress span{height:8px;border-radius:8px;flex:1;background:#e7edf6}.progress span.on{background:#4285f4}h1{font-size:clamp(24px,6vw,33px);line-height:1.4;margin:16px 0}h2{font-size:21px;line-height:1.5}.subtitle{color:#64748b;line-height:1.9}.evidence{border:1px solid #dfe9fc;background:#f5f9ff;border-radius:19px;padding:20px;margin:20px 0;line-height:2}.evidence b{color:#1967d2}.opt{display:flex;align-items:center;gap:13px;width:100%;border:1.5px solid #dfe6f0;background:#fff;border-radius:15px;padding:17px 14px;margin:11px 0;text-align:right;cursor:pointer;color:#1e293b}.opt .letter{display:grid;place-items:center;width:31px;height:31px;flex-shrink:0;border-radius:9px;background:#eef3fb;color:#3262a7;font-weight:800}.opt.active{border-color:#1a73e8;background:#edf4ff}.btn{width:100%;background:#1a73e8;color:#fff;border:0;border-radius:16px;padding:18px;font-weight:800;font-size:17px;cursor:pointer;margin-top:18px;box-shadow:0 7px 18px #1a73e82b}.btn:disabled{opacity:.45;cursor:not-allowed}.btn.alt{background:white;border:1px solid #b8ccec;color:#1967d2;box-shadow:none}.feedback{border-radius:15px;padding:16px;line-height:1.9;margin-top:16px;background:#e6f4ea;color:#146c2e}.feedback.bad{background:#fff1ef;color:#9e3327}.brand{display:flex;align-items:center;justify-content:space-between;font-weight:800}.bars{display:inline-flex;align-items:end;gap:3px;margin-left:6px;vertical-align:middle}.bars i{width:7px;border-radius:5px}.bars i:nth-child(1){height:13px;background:#ea4335}.bars i:nth-child(2){height:21px;background:#4285f4}.bars i:nth-child(3){height:28px;background:#34a853}.result-icon{text-align:center;font-size:64px}.namefield{display:block;margin-top:20px;font-weight:700}input{width:100%;padding:16px;border:1.5px solid #d4dfed;border-radius:14px;margin:9px 0 15px;outline:none}input:focus{border-color:#4285f4}.preview{width:100%;border-radius:18px;box-shadow:0 8px 28px #233b6324;margin-top:15px;display:block}.note{font-size:12px;line-height:1.8;color:#7b8798;text-align:center;margin:15px 0}.actions{display:grid;grid-template-columns:1fr 1fr;gap:10px}.actions .btn{font-size:14px;padding:14px 6px}.logo-dots{display:flex;gap:5px}.logo-dots i{width:11px;height:11px;border-radius:50%}.logo-dots i:nth-child(1){background:#4285f4}.logo-dots i:nth-child(2){background:#ea4335}.logo-dots i:nth-child(3){background:#fbbc05}.logo-dots i:nth-child(4){background:#34a853}@media(max-width:400px){.card{padding:17px}.actions{grid-template-columns:1fr}}
+
+/* Mobile-first layout: use the visible phone viewport without a large blank area. */
+html{width:100%;overflow-x:hidden}
+body{width:100%;overflow-x:hidden}
+@media (max-width:600px){
+  .shell{width:100%;max-width:none;min-height:100svh}
+  .hero{width:100%;min-height:100svh;overflow:hidden;background:#fff}
+  .hero img{display:block;width:100%;height:100svh;object-fit:fill}
+  .hero-action{bottom:9%;left:7%;width:86%;height:10%;min-height:48px;touch-action:manipulation}
+  .screen{padding:16px 12px 30px;min-height:100svh}
+  .card{border-radius:19px;padding:17px}
+  h1{font-size:clamp(23px,6vw,30px)}
+  h2{font-size:clamp(19px,5vw,23px)}
+  .evidence{padding:14px;margin:14px 0;line-height:1.85}
+  .opt{padding:13px 12px;margin:9px 0}
+  .btn{padding:15px;margin-top:13px}
+  .preview{height:auto;max-width:100%}
+  .actions{grid-template-columns:1fr 1fr}
+}
+@media (max-width:360px){.actions{grid-template-columns:1fr}}
+ 
+/* Native responsive landing — all text and the action button are real HTML. */
+body{font-family:Cairo,-apple-system,BlinkMacSystemFont,system-ui,sans-serif;background:#f4f7ff}
+.landing{min-height:100svh;background:#fff;position:relative;overflow:hidden;display:flex;flex-direction:column}
+.landing-inner{width:min(100%,520px);margin:auto;padding:clamp(20px,4vw,32px) 24px 32px;display:flex;flex-direction:column;align-items:stretch;gap:0}
+.landing-head{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:12px}
+.camp-brand{display:flex;align-items:center;gap:9px;font-weight:800;font-size:15px}
+.mini-bars{display:flex;align-items:flex-end;gap:3px;direction:ltr;height:25px}
+.mini-bars i{width:7px;border-radius:4px;background:#ea4335;height:12px}
+.mini-bars i:nth-child(2){height:19px;background:#4285f4}
+.mini-bars i:nth-child(3){height:25px;background:#34a853}
+.edition{font:700 10px Arial,sans-serif;letter-spacing:.7px;color:#6c7d9b;direction:ltr}
+.hero-art{width:min(100%,310px);margin:0 auto}
+.hero-art svg{width:100%;height:auto;display:block}
+.hero-copy{text-align:center}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;background:#edf8f1;color:#188038;font-size:12px;font-weight:700;padding:8px 13px;border-radius:100px}
+.live-dot{width:8px;height:8px;border-radius:50%;background:#34a853}
+.hero-copy h1{font-family:Cairo,-apple-system,BlinkMacSystemFont,system-ui,sans-serif;font-size:clamp(29px,7.2vw,43px);font-weight:900;letter-spacing:normal;line-height:1.55;margin:9px 0 8px;color:#16233c}
+.hero-copy h1 span{color:#1967d2}
+.lead{font-size:clamp(16px,4.2vw,19px);font-weight:800;color:#253b60;margin:0 0 9px}
+.desc{font-size:clamp(13px,3.6vw,15px);line-height:1.9;color:#63728b;margin:0 auto;max-width:390px}
+.skill-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;margin:22px 0 17px}
+.skill-grid>div{background:#f6f8ff;border:1px solid #e8eefb;border-radius:17px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:12px 4px;gap:5px}
+.skill-grid strong{font-size:15px}.skill-grid small{font-size:10px;color:#76839b}
+.skill-icon{font-size:22px;font-weight:900;line-height:1}.skill-icon.blue{color:#4285f4}.skill-icon.red{color:#ea4335}.skill-icon.green{color:#34a853}
+.launch-btn{width:100%;min-height:58px;border:0;border-radius:17px;background:#1967d2;color:white;font:800 18px Cairo,-apple-system,BlinkMacSystemFont,system-ui,sans-serif;display:flex;align-items:center;justify-content:center;gap:15px;box-shadow:0 8px 18px #1967d22a;cursor:pointer;touch-action:manipulation}
+.launch-btn:active{transform:scale(.99)}.launch-btn:focus-visible{outline:3px solid #fbbc05;outline-offset:3px}
+.landing-foot{text-align:center;color:#8490a4;font-size:11px;margin:14px 0 0}
+.color-edge{display:flex;height:7px;width:100%;margin-top:auto;direction:ltr}
+.color-edge i{flex:1;background:#4285f4}.color-edge i:nth-child(2){background:#ea4335}.color-edge i:nth-child(3){background:#fbbc05}.color-edge i:nth-child(4){background:#34a853}
+@media(min-width:700px){.landing{min-height:100vh}.landing-inner{padding-block:40px}.hero-art{width:300px}}
+@media(max-width:390px){.landing-inner{padding:15px 18px 20px}.landing-head{margin-bottom:3px}.hero-art{width:min(100%,240px)}.skill-grid{margin:15px 0}.hero-copy h1{margin:4px 0}.desc{line-height:1.75}}
+@media(max-height:740px) and (max-width:600px){.landing-inner{padding-top:10px;padding-bottom:12px}.hero-art{width:min(100%,205px)}.skill-grid{margin:12px 0}.hero-copy h1{font-size:30px}.landing-foot{margin-top:9px}}
+@media(prefers-reduced-motion:reduce){.launch-btn:active{transform:none}}
+button,input{font-family:Cairo,-apple-system,BlinkMacSystemFont,system-ui,sans-serif}
+/* Additions for the camp only. All previous layout/typography and quiz styles stay the same. */
+.camp-extra{border:1px solid #dfe7f6;background:#f6f9ff;border-radius:17px;padding:13px;margin:14px 0;text-align:center;font-family:Cairo,-apple-system,BlinkMacSystemFont,system-ui,sans-serif}
+.camp-extra .clock-label{font-weight:800;color:#1d355f;font-size:15px;margin-bottom:9px}
+.camp-extra .clock-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}
+.camp-extra .clock-grid div{padding:8px 2px;border-radius:11px;background:white;border:1px solid #dfe7f6;min-width:0}
+.camp-extra .clock-grid strong{display:block;color:#1a73e8;font-size:clamp(17px,5.5vw,25px);line-height:1.35;font-weight:800;font-variant-numeric:tabular-nums}
+.camp-extra .clock-grid small{font-size:10px;color:#627490}
+.camp-extra .camp-note{font-size:12px;color:#64748b;margin:7px 0 0}
+.camp-extra .camp-state{font-size:16px;font-weight:800;color:#188038}
+.camp-join{display:block;text-decoration:none;text-align:center;background:#1a73e8;border-radius:14px;padding:13px;color:white;font-weight:800;font-family:Cairo,-apple-system,BlinkMacSystemFont,system-ui,sans-serif}
+</style></head><body><main class="shell"><section id="home" class="landing">
+  <div class="landing-inner">
+    <header class="landing-head">
+      <div class="camp-brand"><span class="mini-bars"><i></i><i></i><i></i></span><span>معسكر البيانات</span></div>
+      <span class="edition">DATA DETECTIVE · 01</span>
+    </header>
+    <div class="hero-art" aria-hidden="true">
+      <svg viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="156" cy="178" rx="113" ry="12" fill="#eaf0ff"/>
+        <rect x="79" y="26" width="169" height="138" rx="20" fill="#e7efff" transform="rotate(-7 164 95)"/>
+        <rect x="89" y="17" width="160" height="138" rx="18" fill="white" stroke="#d9e6ff" stroke-width="3" transform="rotate(-7 169 86)"/>
+        <circle cx="112" cy="38" r="4" fill="#4285f4"/><circle cx="126" cy="36" r="4" fill="#ea4335"/><circle cx="140" cy="34" r="4" fill="#fbbc05"/>
+        <rect x="114" y="62" width="79" height="7" rx="3" fill="#dce7fb"/>
+        <rect x="117" y="81" width="54" height="6" rx="3" fill="#e8eef9"/>
+        <rect x="125" y="111" width="25" height="30" rx="5" fill="#4285f4"/>
+        <rect x="157" y="95" width="25" height="46" rx="5" fill="#ea4335"/>
+        <rect x="189" y="78" width="25" height="63" rx="5" fill="#fbbc05"/>
+        <circle cx="230" cy="117" r="41" fill="#e7f0ff" stroke="#2875ed" stroke-width="12"/>
+        <path d="M258 146 L295 182" stroke="#2875ed" stroke-width="16" stroke-linecap="round"/>
+        <path d="M48 56 l5 12 12 5 -12 5 -5 12 -5 -12 -12 -5 12 -5z" fill="#fbbc05"/>
+        <circle cx="274" cy="43" r="6" fill="#34a853"/>
+      </svg>
+    </div>
+    <div class="hero-copy">
+      <span class="eyebrow"><span class="live-dot"></span> المهمة الأولى متاحة الآن</span>
+      <h1>رخصة <span>محقق بيانات</span></h1>
+      <p class="lead">قضية غامضة تنتظر من يكشف الحقيقة.</p>
+      <p class="desc">أمامك أدلة وأرقام من متجر نوفا. اربط التفاصيل، اكتشف الخلل، وأثبت مهارتك في قراءة البيانات.</p>
+    </div>
+    <div class="skill-grid" aria-label="مهارات التحدي">
+      <div><span class="skill-icon blue">◉</span><strong>لاحظ</strong><small>التقط الدليل</small></div>
+      <div><span class="skill-icon red">▥</span><strong>حلّل</strong><small>افهم الأرقام</small></div>
+      <div><span class="skill-icon green">✦</span><strong>استنتج</strong><small>اكشف القصة</small></div>
+    </div>
+    <button class="launch-btn" type="button" onclick="start()">ابدأ التحقيق <span aria-hidden="true">←</span></button>
+    <p class="landing-foot">ثلاث مراحل تفصلك عن رخصتك التذكارية</p>
+  </div>
+  <div class="color-edge" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+</section><section id="quiz" class="screen hidden"><div class="card"><div class="brand"><span>معسكر البيانات <span class="bars"><i></i><i></i><i></i></span></span><span class="logo-dots"><i></i><i></i><i></i><i></i></span></div><div class="topline" style="margin-top:23px"><span class="pill" id="stage">المهمة 01</span><span id="count">1 من 3</span></div><div class="progress" id="progress"></div><h1 id="title"></h1><p class="subtitle">اقرأ ملف القضية بعناية، فكل رقم قد يكون دليلًا.</p><div class="evidence"><b>📁 ملف الأدلة</b><div id="story"></div></div><h2 id="question"></h2><div id="options"></div><div id="feedback" class="hidden"></div><button id="next" class="btn" disabled onclick="next()">تأكيد الإجابة</button></div></section><section id="result" class="screen hidden"><div class="card"><div class="result-icon" id="resultIcon">🏆</div><h1 id="resultTitle" style="text-align:center"></h1><p class="subtitle" id="resultText" style="text-align:center"></p><div id="failed" class="hidden"><button class="btn" onclick="start()">حاول من جديد ↻</button></div><div id="passed" class="hidden"><label class="namefield" for="person">اكتب اسمك كما تريده أن يظهر على الرخصة</label><input id="person" maxlength="45" placeholder="اسم المحقق" oninput="drawLicense()"><canvas id="license" class="preview" width="1448" height="1086" aria-label="رخصة محقق بيانات مع رمز التسجيل والعداد التنازلي"></canvas>
+<div class="camp-extra" aria-label="العداد الحقيقي لموعد المعسكر"><div class="clock-label" id="camp-label">باقي على انطلاق المعسكر</div><div class="clock-grid" id="camp-slots"><div><strong id="camp-days">00</strong><small>يوم</small></div><div><strong id="camp-hours">00</strong><small>ساعة</small></div><div><strong id="camp-minutes">00</strong><small>دقيقة</small></div><div><strong id="camp-seconds">00</strong><small>ثانية</small></div></div><p class="camp-note">الاثنين 9 نوفمبر 2026 — 8:00 إلى 10:00 مساءً بتوقيت السعودية</p></div>
+<a class="camp-join" href="https://docs.google.com/forms/d/e/1FAIpQLSeFAHtDr3nqkWWgxK6sfr0MAGT4WPmBPNIEyNo51EWiKlaifQ/viewform" target="_blank" rel="noopener noreferrer">سجّل في معسكر البيانات ↗</a><div class="actions"><button class="btn" onclick="saveLicense()">⬇ حفظ الرخصة</button><button class="btn alt" onclick="shareLicense()">↗ مشاركة الرخصة</button></div><p class="note">رخصة تذكارية لإتمام التحدي، وليست شهادة اعتماد مهني. التصميم مستوحى من ألوان Google ولا يشير إلى شراكة رسمية معها.</p><button class="btn alt" onclick="start()">إعادة التحدي</button></div></div></section></main><script>
+const CAMP_START_MS=Date.parse('2026-11-09T20:00:00+03:00');
+const CAMP_END_MS=Date.parse('2026-11-09T22:00:00+03:00');
+const CAMP_FORM_URL='https://docs.google.com/forms/d/e/1FAIpQLSeFAHtDr3nqkWWgxK6sfr0MAGT4WPmBPNIEyNo51EWiKlaifQ/viewform';
+const registrationQr=new Image();
+let qrLoaded=false;
+const qrReady=new Promise(resolve=>{registrationQr.onload=()=>{qrLoaded=true;resolve(true);if(!document.getElementById('result').classList.contains('hidden'))drawLicense()};registrationQr.onerror=()=>resolve(false)});
+registrationQr.src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYgAAAGIAQAAAABzOEqLAAAC70lEQVR4nO1bSW4kMQwjB/n/lzkHaqkMcgmQcjy2+lQb0bINWSIlU/jm7893AYMYxCAGMYgDER8AQF+L8o1ACKDoKyq/WGTVvYgPAJ5nECI884QoCqJESvXFIqvuRXg97BT2CgEQCfuGXUb5xSKrBgHA+xRIEICdgsol+j2rLkYIuTkJJAGxg8evWXUTIvYre4AjhsMERS+GI0n7yJ7jOAXh9fjsAep8ql70F3uO4xQE/9VLOrJTX7zedRxHIRzB6WAe7MM3yofMr3Yex1EIyrtTkBBFkut39hOtt+pShEgRgsz7mv35rbew8Y/3ETn1qZRQ+cjRI7Yue834x+sIZqb7YOjM5JZo/aqe7zmOUxCR7ypXwyQwpt+BxP5Rgsme4zgFUfpUi4ip7QJJRcS4HP94G/FRV1Rw8kilFF4Te1eRxD3HcRbC7IKg9SsE2SCRaZZqZXYexzEIQhIkKcifw4UsuzcZXGvVhYioR9F5LsMLItlS7lJKRrjIqssRnmrXnyyTOMfyBgaASd5XWnUzwpOeMUJMXuIHyj1rsVXXIkiQkt3hUeygdzIA/XTncRyDkCwapsau1kpiOaomsvU4/ntE9TPokVZ1PdAib5DG2a8WIVz9oCCFPFK0g7TmS4x/LPSPqHY86uf5S+1k+PnKfJdgukAKiiklkk6wMP6xChHsPBdCGdUtKSY91Oi77yOKdkdfTxZCsjcx4nsUrEbffRuR/T5Kh8hAAnSxKr6d+uD7iOhvFx+pbvTwNi2MSu3UP95HlAuoCSBVhw4ejSbJDfccx1EIZuBAsI1qwnK2y2KKK626F6FggpDYHSV13ECQ5vzH0vgBoGR3QnUkStV/4urUIqvuRTz7GZqKd3aLR0fvxI/3ES0V1lGoZh6dBaOTrT3HcSbCgT0qgiGXgCHHT/xYjWAREN8+DnJq/GNtPcqJFOugGrpsmzXcyXffR3w6H5Xnz5Et1LksIbYPP38d8cUBqB//j0EMYhCDGMR5iL8R2Hcre+NiowAAAABJRU5ErkJggg==';
+let lastClockSecond=-1;
+function secondsUntilCamp(){return Math.max(0,Math.floor((CAMP_START_MS-Date.now())/1000))}
+function updateCampTimer(){
+ const now=Date.now(),label=document.getElementById('camp-label'),slots=document.getElementById('camp-slots');
+ if(now>=CAMP_START_MS){slots.style.display='none';label.textContent=now<CAMP_END_MS?'🔴 المعسكر بدأ الآن':'انتهى موعد المعسكر';}
+ else{slots.style.display='grid';label.textContent='باقي على انطلاق المعسكر';const t=secondsUntilCamp();
+ const v=[Math.floor(t/86400),Math.floor((t%86400)/3600),Math.floor((t%3600)/60),t%60];
+ ['camp-days','camp-hours','camp-minutes','camp-seconds'].forEach((id,i)=>document.getElementById(id).textContent=String(v[i]).padStart(2,'0'));}
+ const second=Math.floor(now/1000);
+ if(second!==lastClockSecond){lastClockSecond=second;if(!document.getElementById('result').classList.contains('hidden')&&!document.getElementById('passed').classList.contains('hidden'))drawLicense()}
+}
+setInterval(updateCampTimer,1000);document.addEventListener('visibilitychange',()=>{if(!document.hidden)updateCampTimer()});updateCampTimer();
+const data=[{title:'الدليل الأول: اكتشف التناقض',story:'في أغسطس زار متجر نوفا 1,000 شخص وأكمل 100 منهم الشراء. في سبتمبر ارتفعت الزيارات إلى 1,500، لكن الطلبات المكتملة انخفضت إلى 60.',q:'وش الملاحظة الأهم؟',opts:['عدد الزوار انخفض','الزيارات زادت لكن نسبة الشراء انخفضت','سعر المنتجات ارتفع','عدد الطلبات زاد'],correct:1,explain:'نسبة الشراء انخفضت من 10% إلى 4% رغم ارتفاع عدد الزوار.'},{title:'الدليل الثاني: احسب النسبة',story:'في أغسطس بدأ 200 عميل الدفع وأكمل 160 منهم. في سبتمبر بدأ 250 عميل الدفع وأكمل 100 منهم فقط.',q:'كم نسبة إتمام الدفع في سبتمبر؟',opts:['80%','60%','40%','25%'],correct:2,explain:'100 ÷ 250 × 100 = 40%، مقارنة بـ80% في أغسطس.'},{title:'الدليل الثالث: اتخذ القرار',story:'لاحظت أن نسبة إتمام الدفع تراجعت بعد تحديث صفحة الدفع. لكن لم يثبت بعد أن التحديث هو السبب.',q:'ما أول إجراء منطقي؟',opts:['زيادة الإعلانات فورًا','رفع أسعار المنتجات','فحص أخطاء الدفع ومقارنة الأداء قبل التحديث وبعده','إيقاف المتجر نهائيًا'],correct:2,explain:'نختبر السبب المحتمل بالأدلة قبل اتخاذ قرار متسرع.'}];let step=0,score=0,choice=null,confirmed=false;
+function show(id){['home','quiz','result'].forEach(x=>document.getElementById(x).classList.toggle('hidden',x!==id));window.scrollTo(0,0)}
+function start(){step=0;score=0;show('quiz');render()}
+function render(){choice=null;confirmed=false;const d=data[step];document.getElementById('stage').textContent=['🔍 الملاحظة','📊 التحليل','💡 الاستنتاج'][step];document.getElementById('count').textContent=`${step+1} من 3`;document.getElementById('progress').innerHTML=data.map((_,i)=>`<span class="${i<=step?'on':''}"></span>`).join('');document.getElementById('title').textContent=d.title;document.getElementById('story').textContent=d.story;document.getElementById('question').textContent=d.q;document.getElementById('feedback').className='hidden';const area=document.getElementById('options');area.innerHTML='';d.opts.forEach((opt,i)=>{const b=document.createElement('button');b.className='opt';const l=document.createElement('span');l.className='letter';l.textContent=['أ','ب','ج','د'][i];const t=document.createElement('span');t.textContent=opt;b.append(l,t);b.onclick=()=>{if(confirmed)return;choice=i;document.querySelectorAll('.opt').forEach(x=>x.classList.remove('active'));b.classList.add('active');document.getElementById('next').disabled=false};area.append(b)});const b=document.getElementById('next');b.disabled=true;b.textContent='تأكيد الإجابة'}
+function next(){if(!confirmed){if(choice===null)return;confirmed=true;let ok=choice===data[step].correct;if(ok)score++;const f=document.getElementById('feedback');f.className='feedback'+(ok?'':' bad');f.textContent=(ok?'✓ إجابة صحيحة! ':'الإجابة الصحيحة: '+data[step].opts[data[step].correct]+'. ')+data[step].explain;document.getElementById('next').textContent=step===2?'كشف نتيجة التحقيق':'الدليل التالي ←';return}if(step<2){step++;render()}else finish()}
+function finish(){show('result');const passed=score===3;document.getElementById('resultIcon').textContent=passed?'🏆':'🔎';document.getElementById('resultTitle').textContent=passed?'مبروك! اكتملت المهمة':'القضية تحتاج محاولة ثانية';document.getElementById('resultText').textContent=passed?'أحسنت! اجتزت الملاحظة والتحليل والاستنتاج. رخصتك التذكارية جاهزة باسمك.':`نتيجتك ${score} من 3. راجع الأدلة وحاول مرة ثانية لتحصل على الرخصة.`;document.getElementById('failed').classList.toggle('hidden',passed);document.getElementById('passed').classList.toggle('hidden',!passed);if(passed)drawLicense()}
+function round(ctx,x,y,w,h,r,fill){ctx.beginPath();ctx.roundRect(x,y,w,h,r);ctx.fillStyle=fill;ctx.fill()}
+function drawLicense(){
+ const c=document.getElementById('license'),ctx=c.getContext('2d');const W=1448,H=1086;
+ ctx.clearRect(0,0,W,H);ctx.fillStyle='#f3f6fc';ctx.fillRect(0,0,W,H);
+ // Same Google-blue, red, yellow, green rounded license aesthetic as supplied reference.
+ round(ctx,31,31,1386,1024,69,'#fff');ctx.save();ctx.beginPath();ctx.roundRect(31,31,1386,1024,69);ctx.clip();
+ ctx.fillStyle='#4285f4';ctx.fillRect(31,31,274,35);ctx.fillRect(31,31,29,238);
+ ctx.fillStyle='#ea4335';ctx.fillRect(305,31,116,35);ctx.fillStyle='#fbbc05';ctx.fillRect(421,31,80,35);
+ ctx.fillStyle='#ea4335';ctx.fillRect(665,1023,185,32);ctx.fillStyle='#fbbc05';ctx.fillRect(850,1023,310,32);ctx.fillStyle='#34a853';ctx.fillRect(1160,1023,257,32);
+ ctx.fillStyle='#fbbc05';ctx.beginPath();ctx.arc(1480,832,148,0,Math.PI*2);ctx.fill();ctx.fillStyle='#34a853';ctx.beginPath();ctx.arc(1489,1052,170,0,Math.PI*2);ctx.fill();ctx.restore();
+ const fa='Cairo,system-ui,sans-serif';
+ // Branding
+ ctx.direction='rtl';ctx.textAlign='right';ctx.fillStyle='#152136';ctx.font='800 44px '+fa;ctx.fillText('معسكر البيانات',1223,161);
+ [['#ea4335',1265,126,17,31],['#4285f4',1292,109,17,48],['#34a853',1319,92,17,65]].forEach(a=>round(ctx,a[1],a[2],a[3],a[4],7,a[0]));
+ ctx.direction='ltr';ctx.textAlign='left';ctx.fillStyle='#4285f4';ctx.font='bold 47px Arial';ctx.fillText('Data Bootcamp',115,162);
+ // Main detective magnifier graphic, left
+ ctx.strokeStyle='#d8e5ff';ctx.lineWidth=4;ctx.beginPath();ctx.moveTo(425,232);ctx.lineTo(425,667);ctx.stroke();
+ round(ctx,130,312,236,262,30,'#f0f5ff');
+ [['#ea4335',210,476,40,55],['#fbbc05',263,431,40,100],['#4285f4',316,386,40,145]].forEach(a=>round(ctx,a[1],a[2],a[3],a[4],9,a[0]));
+ ctx.strokeStyle='#1a73e8';ctx.lineWidth=20;ctx.beginPath();ctx.arc(269,438,124,0,Math.PI*2);ctx.stroke();ctx.beginPath();ctx.moveTo(180,525);ctx.lineTo(112,596);ctx.stroke();
+ // Main Arabic certificate text, size/weights reflect reference image.
+ ctx.direction='rtl';ctx.textAlign='center';ctx.fillStyle='#0e1a2c';ctx.font='900 74px '+fa;ctx.fillText('رخصة محقق بيانات',902,266);
+ round(ctx,652,301,502,76,39,'#bbf2e7');ctx.fillStyle='#0e1a2c';ctx.font='800 48px '+fa;ctx.fillText('المستوى الأول',902,355);
+ ctx.font='600 37px '+fa;ctx.fillText('تُمنح هذه الرخصة إلى',902,423);
+ round(ctx,475,452,795,112,56,'#e9effe');ctx.font='900 66px '+fa;let name=(document.getElementById('person').value.trim()||'اسم المشارك').slice(0,45);
+ while(ctx.measureText(name).width>710&&parseInt(ctx.font)>33){ctx.font=ctx.font.replace(/\d+px/,m=>(parseInt(m)-2)+'px')}
+ ctx.fillStyle='#14213b';ctx.fillText(name,873,527);
+ ctx.font='500 36px '+fa;ctx.fillText('لاجتياز تحدي «اكتشف القصة وراء الأرقام»',891,625);
+ ctx.fillText('ضمن فعاليات معسكر البيانات',891,672);
+ // Integrated lower band – same box, countdown at left and QR at right.
+ ctx.strokeStyle='#b3cfff';ctx.lineWidth=3;ctx.beginPath();ctx.moveTo(647,737);ctx.lineTo(647,984);ctx.moveTo(1060,737);ctx.lineTo(1060,984);ctx.stroke();
+ round(ctx,112,716,480,267,26,'#eaf0ff');ctx.fillStyle='#1b2a45';ctx.font='800 33px '+fa;ctx.textAlign='center';ctx.fillText('باقي على المعسكر',365,766);
+ ctx.fillStyle='#2675e7';ctx.font='bold 34px Arial';ctx.fillText('◴',171,766);
+ const now=Date.now();
+ if(now<CAMP_START_MS){
+  const t=secondsUntilCamp();const nums=[Math.floor(t/86400),Math.floor((t%86400)/3600),Math.floor((t%3600)/60),t%60],labels=['يوم','ساعة','دقيقة','ثانية'];
+  const bx=[125,242,359,476];
+  for(let i=0;i<4;i++){round(ctx,bx[i],796,101,112,15,'#fff');ctx.fillStyle='#17243b';ctx.font='bold 39px Arial';ctx.direction='ltr';ctx.textAlign='center';ctx.fillText(String(nums[i]).padStart(2,'0'),bx[i]+50,845);ctx.direction='rtl';ctx.font='600 24px '+fa;ctx.fillText(labels[i],bx[i]+50,887)}
+ }else{ctx.direction='rtl';ctx.textAlign='center';ctx.fillStyle='#188038';ctx.font='800 35px '+fa;ctx.fillText(now<CAMP_END_MS?'المعسكر بدأ الآن':'انتهى موعد المعسكر',365,864)}
+ ctx.direction='rtl';ctx.textAlign='center';ctx.fillStyle='#34445d';ctx.font='600 25px '+fa;ctx.fillText('الاثنين 9 نوفمبر 2026',364,945);
+ ctx.font='600 25px '+fa;ctx.fillText('8:00 – 10:00 مساءً',822,856);
+ ctx.fillStyle='#17243b';ctx.font='800 37px '+fa;ctx.fillText('معسكر البيانات',822,800);
+ ctx.font='26px Arial';ctx.direction='ltr';ctx.fillStyle='#62728f';ctx.fillText('DATA BOOTCAMP',822,900);
+ round(ctx,1107,712,249,246,23,'#f4f7ff');
+ if(qrLoaded){ctx.imageSmoothingEnabled=false;ctx.drawImage(registrationQr,1124,729,216,216);ctx.imageSmoothingEnabled=true}
+ ctx.direction='rtl';ctx.textAlign='center';ctx.fillStyle='#17243b';ctx.font='700 24px '+fa;ctx.fillText('امسح للتسجيل في المعسكر',1229,991);
+}
+async function saveLicense(){await Promise.all([document.fonts.ready,qrReady]);if(!document.getElementById('person').value.trim()){alert('اكتب اسمك على الرخصة أولًا');return}drawLicense();const a=document.createElement('a');a.href=document.getElementById('license').toDataURL('image/png');a.download='data-detective-license.png';document.body.append(a);a.click();a.remove()}
+async function shareLicense(){await Promise.all([document.fonts.ready,qrReady]);if(!document.getElementById('person').value.trim()){alert('اكتب اسمك أولًا');return}drawLicense();const c=document.getElementById('license');try{const blob=await new Promise(resolve=>c.toBlob(resolve,'image/png'));const file=new File([blob],'data-detective-license.png',{type:'image/png'});if(navigator.canShare?.({files:[file]})){await navigator.share({files:[file],title:'رخصة محقق بيانات'});return}if(navigator.share){await navigator.share({title:'اجتزت تحدي محقق بيانات',text:'أنا اجتزت مهمة محقق بيانات!'});return}saveLicense()}catch(e){if(e.name!=='AbortError')saveLicense()}}
+document.fonts.ready.then(()=>{if(!document.getElementById('result').classList.contains('hidden'))drawLicense()});</script></body></html>
